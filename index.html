@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio - Full Stack Developer & AI</title>
+  
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <!-- Devicon pour des logos plus professionnels -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <!-- AOS Animation -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <!-- Fichier CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ==================== DARK MODE TOGGLE ==================== -->
+  <button class="dark-mode-toggle" id="darkModeToggle" aria-label="Toggle Dark Mode">
+    <i class="fas fa-moon"></i>
+  </button>
+
+  <!-- ==================== SECTION 1 : PROFIL ==================== -->
+  <section id="profile" class="section profile-section">
+    <div class="container">
+      <div class="row align-items-center min-vh-100">
+        <div class="col-lg-6 col-md-12" data-aos="fade-right" data-aos-duration="1000">
+          <div class="profile-content">
+            <div class="badge-glow">
+              <i class="fas fa-code"></i> Software Engineer & AI
+            </div>
+            <h1 class="profile-name">
+              <span class="gradient-text">Java</span> Developer<br />
+            </h1>
+            <p class="profile-bio">
+                <b>Youssef EL IDRISSI SAOUD</b><br />
+              Passionate about distributed architectures, artificial intelligence, and scalable solutions.
+              I transform ideas into robust and innovative applications.
+            </p>
+            <div class="profile-actions">
+              <a href="#projects" class="btn btn-primary">
+                <i class="fas fa-rocket"></i> View Projects
+              </a>
+              <a href="#contact" class="btn btn-outline">
+                <i class="fas fa-paper-plane"></i> Contact Me
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12 text-center" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+          <div class="profile-avatar">
+            <div class="avatar-ring">
+              <!-- Remplacez le chemin de l'image par votre propre image -->
+              <img src="profile.jpg" alt="Youssef EL IDRISSI SAOUD" class="profile-image" />
+            </div>
+            <div class="status-dot"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="floating-shapes">
+      <div class="shape shape-1"></div>
+      <div class="shape shape-2"></div>
+      <div class="shape shape-3"></div>
+    </div>
+  </section>
+
+  <!-- ==================== SECTION 2 : TECHNOLOGIES ==================== -->
+  <section id="technologies" class="section tech-section">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up" data-aos-duration="800">
+        <span class="section-tag">Skills</span>
+        <h2 class="section-title">Technologies <span class="gradient-text">I Master</span></h2>
+        <p class="section-subtitle">My daily tech stack</p>
+      </div>
+      <div class="row g-4">
+        <div class="col-lg-2 col-md-3 col-4" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="0">
+          <div class="tech-card" data-tech="java">
+            <div class="tech-icon"><i class="fab fa-java"></i></div>
+            <span class="tech-name">Java</span>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-4" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="50">
+          <div class="tech-card" data-tech="spring">
+            <div class="tech-icon"><i class="devicon-spring-plain"></i></div>
+            <span class="tech-name">Spring Boot</span>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-4" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="100">
+          <div class="tech-card" data-tech="microservices">
+            <div class="tech-icon"><i class="fas fa-network-wired"></i></div>
+            <span class="tech-name">Microservices</span>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-4" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="150">
+          <div class="tech-card" data-tech="docker">
+            <div class="tech-icon"><i class="devicon-docker-plain"></i></div>
+            <span class="tech-name">Docker</span>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-4" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="200">
+          <div class="tech-card" data-tech="react">
+            <div class="tech-icon"><i class="devicon-react-original"></i></div>
+            <span class="tech-name">React</span>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-4" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="250">
+          <div class="tech-card" data-tech="angular">
+            <div class="tech-icon"><i class="devicon-angularjs-plain"></i></div>
+            <span class="tech-name">Angular</span>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-4" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="300">
+          <div class="tech-card" data-tech="react-native">
+            <div class="tech-icon"><i class="devicon-react-original"></i></div>
+            <span class="tech-name">React Native</span>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-4" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="350">
+          <div class="tech-card" data-tech="laravel">
+            <div class="tech-icon"><i class="devicon-laravel-plain"></i></div>
+            <span class="tech-name">Laravel</span>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-4" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="400">
+          <div class="tech-card" data-tech="python">
+            <div class="tech-icon"><i class="devicon-python-plain"></i></div>
+            <span class="tech-name">Python</span>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-4" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="450">
+          <div class="tech-card" data-tech="mongodb">
+            <div class="tech-icon"><i class="devicon-mongodb-plain"></i></div>
+            <span class="tech-name">MongoDB</span>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-4" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="500">
+          <div class="tech-card" data-tech="postgresql">
+            <div class="tech-icon"><i class="devicon-postgresql-plain"></i></div>
+            <span class="tech-name">PostgreSQL</span>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-4" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="550">
+          <div class="tech-card" data-tech="kafka">
+            <div class="tech-icon"><i class="devicon-apachekafka-original"></i></div>
+            <span class="tech-name">Apache Kafka</span>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-4" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="600">
+          <div class="tech-card" data-tech="bigdata">
+            <div class="tech-icon"><i class="fas fa-database"></i></div>
+            <span class="tech-name">Big Data</span>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-4" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="650">
+          <div class="tech-card" data-tech="keycloak">
+            <div class="tech-icon"><i class="fas fa-shield-alt"></i></div>
+            <span class="tech-name">Keycloak</span>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-4" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="700">
+          <div class="tech-card" data-tech="fastapi">
+            <div class="tech-icon"><i class="fas fa-bolt"></i></div>
+            <span class="tech-name">FastAPI</span>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-4" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="750">
+          <div class="tech-card" data-tech="ai">
+            <div class="tech-icon"><i class="fas fa-robot"></i></div>
+            <span class="tech-name">AI & ML</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SECTION 3 : PARCOURS SCOLAIRE ==================== -->
+  <section id="education" class="section edu-section">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up" data-aos-duration="800">
+        <span class="section-tag">Education</span>
+        <h2 class="section-title">Academic <span class="gradient-text">Background</span></h2>
+        <p class="section-subtitle">My journey in the world of technology</p>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item" data-aos="fade-right" data-aos-duration="800" data-aos-delay="0">
+          <div class="timeline-dot"><i class="fas fa-graduation-cap"></i></div>
+          <div class="timeline-content">
+            <div class="timeline-date">2025 - 2027</div>
+            <h3 class="timeline-title">Master's in Artificial Intelligence</h3>
+            <p class="timeline-institution"><i class="fas fa-university"></i> Faculty of Science and Technology</p>
+            <p class="timeline-desc">
+              Specialization in Deep Learning, Natural Language Processing, Machine Learning, and Deep Learning.
+            </p>
+            <div class="timeline-tags">
+              <span>Deep Learning</span>
+              <span>NLP</span>
+              <span>Machine Learning</span>
+              <span>Big Data</span>
+              <span>NoSQL</span>
+            </div>
+          </div>
+        </div>
+        <div class="timeline-item" data-aos="fade-right" data-aos-duration="800" data-aos-delay="200">
+          <div class="timeline-dot"><i class="fas fa-laptop-code"></i></div>
+          <div class="timeline-content">
+            <div class="timeline-date">2025</div>
+            <h3 class="timeline-title">Bachelor's in Computer Systems</h3>
+            <p class="timeline-institution"><i class="fas fa-university"></i> Faculty of Science and Technology</p>
+            <p class="timeline-desc">
+              Comprehensive training in distributed architectures, databases, networks, and scalable system design.
+            </p>
+            <div class="timeline-tags">
+              <span>Distributed Systems</span>
+              <span>Networks</span>
+              <span>Databases</span>
+              <span>Java OOP</span>
+              <span>Linux</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SECTION 4 : PROJETS ==================== -->
+  <section id="projects" class="section projects-section">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up" data-aos-duration="800">
+        <span class="section-tag">Projects</span>
+        <h2 class="section-title">My <span class="gradient-text">Projects</span></h2>
+        <p class="section-subtitle">Click on the button to view the repository on GitHub</p>
+      </div>
+      <div class="row g-4">
+        <!-- Projet 1 : Multimile -->
+        <div class="col-lg-4 col-md-6" data-aos="flip-up" data-aos-duration="800" data-aos-delay="0">
+          <div class="project-card" data-project="multimile">
+            <div class="project-logo">
+              <i class="fas fa-envelope-open-text"></i>
+            </div>
+            <h3 class="project-title">Multimile</h3>
+            <p class="project-short-desc">Bulk email sending platform with analytics</p>
+            <div class="project-techs">
+              <span>Laravel</span>
+              <span>React</span>
+              <span>Tailwind</span>
+              <span>MySQL</span>
+            </div>
+            <a href="https://github.com/elidrissisaoud/multimile" target="_blank" class="btn-repo">
+              <i class="fab fa-github"></i> View Repository
+            </a>
+          </div>
+        </div>
+        <!-- Projet 2 : Restaurant AI -->
+        <div class="col-lg-4 col-md-6" data-aos="flip-up" data-aos-duration="800" data-aos-delay="200">
+          <div class="project-card" data-project="restaurant-ai">
+            <div class="project-logo">
+              <i class="fas fa-robot"></i>
+            </div>
+            <h3 class="project-title">Restaurant AI</h3>
+            <p class="project-short-desc">Mobile app for restaurant recommendations with AI</p>
+            <div class="project-techs">
+              <span>Spring Boot</span>
+              <span>FastAPI</span>
+              <span>React Native</span>
+              <span>GROQ</span>
+            </div>
+            <a href="https://github.com/elidrissisaoud/restaurant-recommendation-app" target="_blank" class="btn-repo">
+              <i class="fab fa-github"></i> View Repository
+            </a>
+          </div>
+        </div>
+        <!-- Projet 3 (placeholder) -->
+        <div class="col-lg-4 col-md-6" data-aos="flip-up" data-aos-duration="800" data-aos-delay="400">
+          <div class="project-card" data-project="future-project">
+            <div class="project-logo">
+              <i class="fas fa-plus-circle"></i>
+            </div>
+            <h3 class="project-title">Coming Soon</h3>
+            <p class="project-short-desc">New e-commerce platform with AI features</p>
+            <div class="project-techs">
+              <span>...</span>
+            </div>
+            <button class="btn-repo" disabled>
+              <i class="fas fa-clock"></i> Coming Soon
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer id="contact" class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <span class="footer-logo">Portfolio.</span>
+          <p class="footer-bio">Java Spring Boot Developer & Microservices Architect</p>
+        </div>
+        <div class="footer-social">
+          <a href="#" target="_blank" class="social-link" aria-label="LinkedIn">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="https://github.com/elidrissisaoud" target="_blank" class="social-link" aria-label="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="mailto:elidrissisaoudyoussef@gmail.com" class="social-link" aria-label="Email">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 - All rights reserved</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>
